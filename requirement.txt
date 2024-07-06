@@ -1,0 +1,6 @@
+wit
+PyAudio
+speech_recognition 
+pyttsx3
+webdriver-manager
+AppOpener

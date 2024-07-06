@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "body:body": [
+      {
+        "body": "noon",
+        "confidence": 0.6758210093490024,
+        "end": 98,
+        "entities": [],
+        "id": "1071506497949630",
+        "name": "body",
+        "role": "body",
+        "start": 94,
+        "suggested": "True",
+        "type": "value",
+        "value": "noon"
+      }
+    ],
+    "wit$email:email": [
+      {
+        "body": "green@kenya.com",
+        "confidence": 1,
+        "end": 20,
+        "entities": [],
+        "id": "1535309250741910",
+        "name": "wit$email",
+        "role": "email",
+        "start": 5,
+        "type": "value",
+        "value": "green@kenya.com"
+      }
+    ]
+  },
+  "intents": [
+    {
+      "confidence": 0.8276772296351091,
+      "id": "339565985859843",
+      "name": "mail_send"
+    }
+  ],
+  "text": "mail green@kenya.com subject: warning from john, body: Make sure you complete the task before noon",
+  "traits": {
+    "wit$sentiment": [
+      {
+        "confidence": 0.7596189975738525,
+        "id": "5ac2b50a-44e4-466e-9d49-bad6bd40092c",
+        "value": "neutral"
+      }
+    ]
+  }
+}
