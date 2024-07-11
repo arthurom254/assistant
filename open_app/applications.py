@@ -1,9 +1,11 @@
 from AppOpener import open, close
-
+from nlp.text_to_speech import speakAloud
 def open_app(*args):
     for apps in args:
-        open(apps)
+        speakAloud(f"Opening {apps}")
+        open(apps, match_closest=True)
 
 def close_app(*args):
     for apps in args:
-        close(apps)
+        speakAloud(f"Closing {apps}")
+        close(apps, match_closest=True)

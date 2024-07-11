@@ -4,3 +4,6 @@ speech_recognition
 pyttsx3
 webdriver-manager
 AppOpener
+playsound 
+pydub
+simpleaudio
