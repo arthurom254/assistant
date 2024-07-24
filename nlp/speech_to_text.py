@@ -13,5 +13,5 @@ def speechToText():
     except sr.UnknownValueError:
         print("I could not understand what you said")
     except sr.RequestError as e:
-        print("Could not request results")
+        print("Could not request results", e)
     return 0

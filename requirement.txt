@@ -1,9 +1,8 @@
 wit
 PyAudio
-speech_recognition 
+speechrecognition 
 pyttsx3
 webdriver-manager
 AppOpener
-playsound 
 pydub
-simpleaudio
+setuptools

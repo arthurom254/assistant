@@ -6,9 +6,6 @@ def aiEngine(text):
     response=client.message(text)
     intents = response.get('intents', [])
 
-
-    print(response)
-
     if intents :        
         intent = intents[0]['name']
         if intent == 'google':
