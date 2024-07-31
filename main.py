@@ -20,9 +20,9 @@ def on_button_click(event):
     from nlp.speech_to_text import speechToText
     from ai_engine.main import aiEngine
     text = speechToText()
-    
+    text1=text.lower()
     if text != 0:
-        if "generate" in text and "image" in text:
+        if "generate" in text1 and "image" in text1:
             from nlp.text_to_speech import speakAloud
             speakAloud(text)
             from img import img_gen
