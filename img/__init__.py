@@ -16,6 +16,7 @@ def img_gen(text):
       #mainImage {
         width: 500px;
         display: none;
+        clip-path: inset(0 0 25px 0);
       }
       #loader {
         display: none;
